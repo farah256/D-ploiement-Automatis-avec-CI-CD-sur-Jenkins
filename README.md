@@ -1,4 +1,4 @@
-# Déploiement Automatisé d'une Application Web avec Jenkins et AWS
+# Déploiement Automatisé d'une Application Web avec Jenkins
 
 ## Partie 1: CI (Continuous Integration)
 
