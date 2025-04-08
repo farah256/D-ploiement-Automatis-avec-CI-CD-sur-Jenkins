@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello !</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 100px;
+            background-color: #f0f0f0;
+        }
+        
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        h1 {
+            color: green;
+        }
+        
+        input {
+            padding: 8px;
+            margin: 10px 0;
+            width: 200px;
+        }
+        
+        button {
+            padding: 8px 20px;
+            background-color: green;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        
+        #greeting {
+            font-size: 52px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Say hello </h1>
+        
+        <div>
+            <input type="text" id="nameInput" placeholder="Entrez votre nom">
+            <button onclick="showGreeting()">Entrer </button>
+        </div>
+        
+        <div id="greeting"></div>
+    </div>
+
+    <script>
+        function showGreeting() {
+            const name = document.getElementById('nameInput').value;
+            if (name) {
+                document.getElementById('greeting').innerHTML = 'Hello ' + name + '!';
+            }
+        }
+    </script>
+</body>
+</html>
