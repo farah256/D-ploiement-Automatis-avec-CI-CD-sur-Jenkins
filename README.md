@@ -1,4 +1,4 @@
-# Déploiement Automatisé d'une Application Web avec Jenkins
+# Déploiement Automatisé d'une Application Web avec Jenkins et Docker
 
 ## Partie 1: CI (Continuous Integration)
 
@@ -36,7 +36,6 @@
 ## Partie 2: CD (Continuous Deployment)
 <img width="953" alt="11" src="https://github.com/user-attachments/assets/b7d40366-c2da-4f79-9c99-0508bace20a8" />
 
-## Description du Pipeline CD
 Ce pipeline Jenkins déploie automatiquement l'application sur trois environnements :
 
 1. **Review** (port 8080) - Environnement de test initial
